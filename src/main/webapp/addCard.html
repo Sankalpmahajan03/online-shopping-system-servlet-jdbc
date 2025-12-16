@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Credit Card</title>
+</head>
+<body>
+    <h3>Add a Credit Card</h3>
+    <form action="SaveCreditCard" method="post">
+        Card Number: <input type="text" name="cardNumber" required/><br/>
+        Holder Name: <input type="text" name="cardHolderName" required/><br/>
+        Expiry Date: <input type="text" name="expiryDate" placeholder="MM/YY" required/><br/>
+        CVV: <input type="password" name="cvv" required/><br/>
+        <input type="submit" value="Save Card"/>
+    </form>
+    <br/>
+    <a href="ListCreditCards">Back to Saved Cards</a>
+</body>
+</html>
